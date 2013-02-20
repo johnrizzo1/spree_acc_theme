@@ -1,0 +1,14 @@
+@import "store/variables.css.scss";
+
+/*
+ *= require store/spree_core
+*/
+body {
+    font-family: $ff_base;
+    font-size: $base_font_size;
+    font-weight: 400;
+    color: $body_text_color;
+    line-height: 18px;
+    background-color: darkgreen;
+    -webkit-font-smoothing: antialiased;
+}
