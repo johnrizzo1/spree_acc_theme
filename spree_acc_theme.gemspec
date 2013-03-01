@@ -3,8 +3,8 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_acc_theme'
   s.version     = '1.3.2'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'Spree theme for ACC'
+  s.description = 'This is a spree theme for ACC based on bootstrap'
   s.required_ruby_version = '>= 1.8.7'
 
   s.author    = 'John Rizzo'
@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
 
   s.add_dependency 'spree_core', '~> 1.3.2'
+  s.add_dependency 'bootstrap-sass'
 
   s.add_development_dependency 'capybara', '~> 1.1.2'
   s.add_development_dependency 'coffee-rails'
